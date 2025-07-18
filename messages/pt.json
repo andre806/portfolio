@@ -1,0 +1,475 @@
+{
+    "navigation": {
+        "home": "Início",
+        "about": "Sobre",
+        "projects": "Projetos",
+        "blog": "Blog",
+        "playground": "Playground",
+        "jobs": "Vagas",
+        "contact": "Contato",
+        "dashboard": "Dashboard"
+    },
+    "common": {
+        "loading": "Carregando...",
+        "error": "Erro",
+        "success": "Sucesso",
+        "cancel": "Cancelar",
+        "save": "Salvar",
+        "edit": "Editar",
+        "delete": "Excluir",
+        "confirm": "Confirmar",
+        "back": "Voltar",
+        "next": "Próximo",
+        "previous": "Anterior",
+        "search": "Buscar",
+        "filter": "Filtrar",
+        "sort": "Ordenar",
+        "clear": "Limpar",
+        "apply": "Aplicar",
+        "submit": "Enviar",
+        "close": "Fechar",
+        "open": "Abrir",
+        "view": "Ver",
+        "download": "Baixar",
+        "share": "Compartilhar",
+        "copy": "Copiar",
+        "copied": "Copiado!",
+        "readMore": "Ler mais",
+        "showLess": "Mostrar menos",
+        "showMore": "Mostrar mais",
+        "noResults": "Nenhum resultado encontrado",
+        "tryAgain": "Tentar novamente"
+    },
+    "theme": {
+        "light": "Tema claro",
+        "dark": "Tema escuro",
+        "toggle": "Alternar tema"
+    },
+    "language": {
+        "portuguese": "Português",
+        "english": "English",
+        "toggle": "Alterar idioma"
+    },
+    "home": {
+        "title": "Desenvolvedor Full Stack",
+        "subtitle": "Criando experiências digitais incríveis com tecnologias modernas",
+        "description": "Sou um desenvolvedor apaixonado por tecnologia, especializado em React, Node.js e TypeScript. Adoro transformar ideias em soluções digitais inovadoras.",
+        "hero": {
+            "greeting": "Olá, eu sou",
+            "title": "Desenvolvedor Full Stack & Criador de Experiências Digitais",
+            "description": "Especializado em React, Next.js, TypeScript e Node.js. Transformo ideias em soluções digitais inovadoras, criando aplicações web modernas e performáticas que fazem a diferença.",
+            "viewProjects": "Ver Projetos",
+            "getInTouch": "Entre em Contato",
+            "profileAlt": "Foto de perfil do André"
+        },
+        "stats": {
+            "projectsCompleted": "Projetos Concluídos",
+            "yearsExperience": "Anos de Experiência",
+            "technologies": "Tecnologias",
+            "clientSatisfaction": "Satisfação do Cliente"
+        },
+        "technologies": {
+            "title": "Tecnologias que Domino",
+            "description": "Sempre aprendendo e evoluindo com as melhores ferramentas do mercado para criar soluções modernas e eficientes."
+        },
+        "services": {
+            "title": "Serviços que Ofereço",
+            "description": "Soluções completas de desenvolvimento para atender às suas necessidades digitais.",
+            "frontend": {
+                "title": "Desenvolvimento Frontend",
+                "description": "Criação de interfaces modernas, responsivas e interativas usando as melhores práticas e tecnologias atuais."
+            },
+            "backend": {
+                "title": "Desenvolvimento Backend",
+                "description": "APIs robustas, seguras e escaláveis para dar vida às suas aplicações e garantir performance."
+            },
+            "database": {
+                "title": "Banco de Dados",
+                "description": "Modelagem e otimização de bancos de dados para garantir eficiência e integridade dos dados."
+            },
+            "mobile": {
+                "title": "Desenvolvimento Mobile",
+                "description": "Aplicativos móveis nativos e híbridos para iOS e Android com experiência nativa."
+            }
+        },
+        "cta": {
+            "title": "Pronto para Transformar sua Ideia em Realidade?",
+            "description": "Vamos trabalhar juntos para criar algo incrível. Entre em contato e vamos conversar sobre seu projeto.",
+            "viewProjects": "Ver Meus Projetos",
+            "downloadCV": "Baixar CV"
+        }
+    },
+    "about": {
+        "title": "Sobre Mim",
+        "subtitle": "Conheça minha jornada e experiências",
+        "description": "Desenvolvedor full stack com paixão por criar soluções inovadoras e experiências digitais excepcionais.",
+        "hero": {
+            "title": "Olá, eu sou André!",
+            "description": "Desenvolvedor full stack apaixonado por tecnologia e inovação. Especializado em React, Node.js e TypeScript, sempre em busca de novos desafios e oportunidades de crescimento."
+        },
+        "stats": {
+            "projectsCompleted": "Projetos Concluídos",
+            "yearsExperience": "Anos de Experiência",
+            "technologiesMastered": "Tecnologias Dominadas",
+            "clientsSatisfied": "Clientes Satisfeitos"
+        },
+        "skills": {
+            "title": "Habilidades Técnicas",
+            "description": "Tecnologias e ferramentas que utilizo no dia a dia"
+        },
+        "achievements": {
+            "title": "Conquistas",
+            "description": "Alguns marcos importantes da minha carreira"
+        },
+        "qrCode": {
+            "title": "Conecte-se Comigo",
+            "description": "Escaneie o QR Code para acessar meus perfis profissionais",
+            "scanToConnect": "Escaneie para conectar"
+        },
+        "cta": {
+            "title": "Vamos trabalhar juntos?",
+            "description": "Estou sempre aberto a novos projetos e oportunidades.",
+            "contact": "Entre em Contato"
+        }
+    },
+    "projects": {
+        "title": "Meus Projetos",
+        "subtitle": "Portfólio de trabalhos e experiências",
+        "description": "Uma coleção dos meus melhores projetos, demonstrando minhas habilidades e paixão pelo desenvolvimento.",
+        "filters": {
+            "all": "Todos",
+            "featured": "Destaques",
+            "recent": "Recentes"
+        },
+        "categories": {
+            "web": "Web",
+            "mobile": "Mobile",
+            "api": "API",
+            "desktop": "Desktop",
+            "other": "Outros"
+        },
+        "status": {
+            "completed": "Concluído",
+            "inProgress": "Em Andamento",
+            "planned": "Planejado"
+        },
+        "searchPlaceholder": "Buscar projetos...",
+        "noProjectsFound": "Nenhum projeto encontrado",
+        "tryDifferentFilter": "Tente usar filtros diferentes ou limpar a busca",
+        "viewDetails": "Ver Detalhes",
+        "viewLive": "Ver Online",
+        "viewCode": "Ver Código",
+        "technologies": "Tecnologias",
+        "features": "Funcionalidades",
+        "challenges": "Desafios",
+        "results": "Resultados",
+        "mostUsedTech": {
+            "title": "Tecnologias Mais Utilizadas",
+            "description": "Com base nos projetos desenvolvidos"
+        }
+    },
+    "blog": {
+        "title": "Blog Técnico",
+        "subtitle": "Artigos sobre desenvolvimento e tecnologia",
+        "description": "Compartilho conhecimentos, experiências e insights sobre o mundo da programação.",
+        "searchPlaceholder": "Buscar artigos...",
+        "categories": {
+            "all": "Todos",
+            "tutorial": "Tutorial",
+            "review": "Review",
+            "tips": "Dicas",
+            "news": "Notícias",
+            "opinion": "Opinião"
+        },
+        "filters": {
+            "recent": "Mais recentes",
+            "popular": "Mais populares",
+            "featured": "Em destaque"
+        },
+        "readTime": "min de leitura",
+        "readMore": "Ler artigo completo",
+        "publishedOn": "Publicado em",
+        "lastUpdated": "Última atualização",
+        "author": "Autor",
+        "tags": "Tags",
+        "relatedPosts": "Artigos relacionados",
+        "shareArticle": "Compartilhar artigo",
+        "backToBlog": "← Voltar ao blog",
+        "noArticlesFound": "Nenhum artigo encontrado",
+        "tryDifferentSearch": "Tente uma busca diferente ou explore as categorias",
+        "featuredPosts": "Artigos em destaque",
+        "recentPosts": "Artigos recentes",
+        "popularTags": "Tags populares"
+    },
+    "playground": {
+        "title": "Playground de Código",
+        "subtitle": "Experimente e teste códigos em tempo real",
+        "description": "Um ambiente interativo para testar snippets de código, experimentar com diferentes tecnologias e aprender.",
+        "examples": {
+            "title": "Exemplos",
+            "basic": "Básico",
+            "intermediate": "Intermediário",
+            "advanced": "Avançado"
+        },
+        "editor": {
+            "run": "Executar",
+            "clear": "Limpar",
+            "format": "Formatar",
+            "copy": "Copiar",
+            "download": "Baixar",
+            "share": "Compartilhar"
+        },
+        "console": {
+            "title": "Console",
+            "clear": "Limpar console",
+            "noOutput": "Nenhuma saída no console"
+        },
+        "preview": {
+            "title": "Preview",
+            "refresh": "Atualizar",
+            "openInTab": "Abrir em nova aba"
+        },
+        "templates": {
+            "title": "Templates",
+            "description": "Comece com um template pronto"
+        },
+        "languages": {
+            "javascript": "JavaScript",
+            "html": "HTML",
+            "css": "CSS",
+            "react": "React",
+            "vue": "Vue",
+            "angular": "Angular"
+        }
+    },
+    "jobs": {
+        "title": "Vagas de Emprego",
+        "subtitle": "Oportunidades incríveis na área de tecnologia",
+        "description": "Encontre as melhores vagas de desenvolvimento e tecnologia",
+        "stats": {
+            "totalJobs": "Total de vagas",
+            "remoteJobs": "Trabalho remoto",
+            "featuredJobs": "Vagas em destaque",
+            "averageSalary": "Salário médio (Pleno)"
+        },
+        "filters": {
+            "title": "Filtros",
+            "clear": "Limpar filtros",
+            "search": "Buscar",
+            "searchPlaceholder": "Título, empresa, tecnologia...",
+            "location": "Localização",
+            "allLocations": "Todas as localizações",
+            "jobType": "Tipo de vaga",
+            "level": "Nível",
+            "category": "Categoria",
+            "remote": "Trabalho remoto",
+            "remoteOnly": "Apenas remoto",
+            "onSiteHybrid": "Presencial/Híbrido",
+            "salaryRange": "Faixa salarial (BRL/mês)",
+            "technologies": "Tecnologias",
+            "showMoreTech": "Ver mais tecnologias",
+            "showLessTech": "Ver menos",
+            "featuredOnly": "Apenas destacadas",
+            "urgentOnly": "Apenas urgentes"
+        },
+        "jobTypes": {
+            "fullTime": "Integral",
+            "partTime": "Meio período",
+            "contract": "Contrato",
+            "freelance": "Freelance",
+            "internship": "Estágio"
+        },
+        "levels": {
+            "junior": "Júnior",
+            "mid": "Pleno",
+            "senior": "Sênior",
+            "lead": "Lead",
+            "principal": "Principal"
+        },
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "fullstack": "Full Stack",
+            "mobile": "Mobile",
+            "devops": "DevOps",
+            "data": "Data Science",
+            "design": "Design",
+            "product": "Produto"
+        },
+        "badges": {
+            "featured": "Destaque",
+            "urgent": "Urgente",
+            "remote": "Remoto"
+        },
+        "card": {
+            "viewDetails": "Ver detalhes →",
+            "salaryTbd": "Salário a combinar",
+            "postedAgo": "Há {days} {days, plural, =1 {dia} other {dias}}",
+            "weeksAgo": "Há {weeks} {weeks, plural, =1 {semana} other {semanas}}",
+            "monthsAgo": "Há {months} {months, plural, =1 {mês} other {meses}}"
+        },
+        "details": {
+            "description": "Descrição da vaga",
+            "responsibilities": "Responsabilidades",
+            "requirements": "Requisitos",
+            "benefits": "Benefícios",
+            "technologies": "Tecnologias",
+            "applicationDeadline": "Prazo para aplicação: {date}",
+            "similarJobs": "Vagas similares",
+            "apply": "Candidatar-se",
+            "viewOriginal": "Ver no site original",
+            "favorite": "Favoritar",
+            "unfavorite": "Remover dos favoritos"
+        },
+        "application": {
+            "title": "Candidatar-se para {jobTitle}",
+            "fullName": "Nome completo",
+            "email": "acode775@gmail.com",
+            "linkedin": "LinkedIn",
+            "portfolio": "Portfólio",
+            "coverLetter": "Carta de apresentação",
+            "coverLetterPlaceholder": "Conte-nos por que você é o candidato ideal para esta vaga...",
+            "submit": "Enviar candidatura",
+            "submitting": "Enviando...",
+            "success": "Aplicação enviada com sucesso!",
+            "error": "Erro ao enviar aplicação",
+            "required": "Campo obrigatório"
+        },
+        "sorting": {
+            "newest": "Mais recentes",
+            "oldest": "Mais antigas",
+            "salaryHigh": "Maior salário",
+            "salaryLow": "Menor salário",
+            "featured": "Destacadas primeiro"
+        },
+        "results": {
+            "found": "{count} {count, plural, =1 {vaga encontrada} other {vagas encontradas}}",
+            "filtered": "(filtrado)",
+            "noResults": "Nenhuma vaga encontrada",
+            "noResultsDesc": "Tente ajustar os filtros ou limpar a busca",
+            "viewAll": "Ver todas as vagas"
+        }
+    },
+    "contact": {
+        "title": "Entre em Contato",
+        "subtitle": "Vamos conversar sobre seu próximo projeto",
+        "description": "Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato!",
+        "form": {
+            "name": "Nome",
+            "email": "E-mail",
+            "subject": "Assunto",
+            "message": "Mensagem",
+            "send": "Enviar Mensagem",
+            "sending": "Enviando...",
+            "success": "Mensagem enviada com sucesso!",
+            "error": "Erro ao enviar mensagem. Tente novamente.",
+            "required": "Campo obrigatório",
+            "invalidEmail": "E-mail inválido"
+        },
+        "info": {
+            "email": "E-mail",
+            "phone": "Telefone",
+            "location": "Localização",
+            "availability": "Disponibilidade"
+        },
+        "social": {
+            "title": "Redes Sociais",
+            "description": "Conecte-se comigo nas redes sociais"
+        },
+        "feedback": {
+            "title": "Feedback",
+            "description": "Sua opinião é importante para mim",
+            "rating": "Avaliação",
+            "comment": "Comentário",
+            "submit": "Enviar Feedback",
+            "thanks": "Obrigado pelo seu feedback!"
+        }
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Métricas e análises do portfólio",
+        "description": "Acompanhe estatísticas, performance e insights sobre o portfólio",
+        "tabs": {
+            "overview": "Visão Geral",
+            "analytics": "Analytics",
+            "projects": "Projetos",
+            "blog": "Blog",
+            "contact": "Contatos"
+        },
+        "metrics": {
+            "visitors": "Visitantes",
+            "pageViews": "Visualizações",
+            "bounceRate": "Taxa de Rejeição",
+            "avgSessionDuration": "Duração Média da Sessão",
+            "totalProjects": "Total de Projetos",
+            "activeProjects": "Projetos Ativos",
+            "completedProjects": "Projetos Concluídos",
+            "totalPosts": "Total de Posts",
+            "publishedPosts": "Posts Publicados",
+            "draftPosts": "Rascunhos",
+            "totalMessages": "Total de Mensagens",
+            "unreadMessages": "Não Lidas",
+            "repliedMessages": "Respondidas"
+        },
+        "charts": {
+            "visitorsOverTime": "Visitantes ao Longo do Tempo",
+            "topPages": "Páginas Mais Visitadas",
+            "deviceTypes": "Tipos de Dispositivos",
+            "trafficSources": "Fontes de Tráfego",
+            "projectsByCategory": "Projetos por Categoria",
+            "techUsage": "Uso de Tecnologias",
+            "blogPerformance": "Performance do Blog",
+            "contactTrends": "Tendências de Contato"
+        },
+        "export": {
+            "pdf": "Exportar PDF",
+            "csv": "Exportar CSV",
+            "json": "Exportar JSON"
+        },
+        "refresh": "Atualizar dados",
+        "lastUpdated": "Última atualização: {time}"
+    },
+    "footer": {
+        "description": "Desenvolvedor full stack apaixonado por criar experiências digitais incríveis.",
+        "quickLinks": "Links Rápidos",
+        "social": "Redes Sociais",
+        "contactSection": "Contato",
+        "newsletter": {
+            "title": "Newsletter",
+            "description": "Receba atualizações sobre novos projetos e artigos",
+            "placeholder": "Seu e-mail",
+            "subscribe": "Inscrever-se",
+            "success": "Inscrição realizada com sucesso!",
+            "error": "Erro ao realizar inscrição"
+        },
+        "copyright": "© {year} André. Todos os direitos reservados.",
+        "madeWith": "Feito com ❤️ usando Next.js e TailwindCSS",
+        "navigation": "Navegação",
+        "resources": "Recursos",
+        "legal": "Legal",
+        "home": "Início",
+        "about": "Sobre",
+        "projects": "Projetos",
+        "blog": "Blog",
+        "contact": "Contato",
+        "playground": "Playground",
+        "jobs": "Vagas",
+        "timeline": "Timeline",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Uso"
+    },
+    "errors": {
+        "pageNotFound": "Página não encontrada",
+        "somethingWentWrong": "Algo deu errado",
+        "tryAgain": "Tentar novamente",
+        "goHome": "Ir para o início",
+        "networkError": "Erro de conexão",
+        "serverError": "Erro do servidor",
+        "validationError": "Erro de validação"
+    },
+    "meta": {
+        "defaultTitle": "André - Desenvolvedor Full Stack",
+        "defaultDescription": "Portfólio profissional de André, desenvolvedor full stack especializado em React, Node.js e TypeScript. Criando experiências digitais incríveis.",
+        "keywords": "desenvolvedor, full stack, react, nodejs, typescript, portfolio, web development"
+    }
+}

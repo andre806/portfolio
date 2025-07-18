@@ -1,0 +1,14 @@
+<!-- Placeholder SVG para AI Chat -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#7c3aed"/>
+  <rect x="60" y="50" width="280" height="200" fill="#8b5cf6" rx="8"/>
+  <rect x="80" y="70" width="200" height="20" fill="#a855f7" rx="10"/>
+  <rect x="200" y="100" width="160" height="20" fill="#c084fc" rx="10"/>
+  <rect x="80" y="130" width="180" height="20" fill="#ddd6fe" rx="10"/>
+  <rect x="180" y="160" width="140" height="20" fill="#e9d5ff" rx="10"/>
+  <circle cx="320" cy="80" r="8" fill="#f3e8ff"/>
+  <circle cx="100" cy="110" r="8" fill="#f3e8ff"/>
+  <circle cx="310" cy="170" r="8" fill="#f3e8ff"/>
+  <text x="200" y="230" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🤖 AI Chat Assistant</text>
+  <text x="200" y="250" text-anchor="middle" fill="#e9d5ff" font-family="Arial, sans-serif" font-size="10">Intelligent conversation bot</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad2)"/>
+  <polygon points="200,100 250,50 300,100 250,150" fill="white" opacity="0.2"/>
+  <polygon points="500,200 550,150 600,200 550,250" fill="white" opacity="0.3"/>
+  <polygon points="800,350 850,300 900,350 850,400" fill="white" opacity="0.25"/>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">Next.js 14</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" opacity="0.9">Novidades & Migração</text>
+  <rect x="500" y="380" width="200" height="4" rx="2" fill="white" opacity="0.7"/>
+</svg>

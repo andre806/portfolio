@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#44E6D8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad6)"/>
+  <polygon points="200,200 300,150 400,200 350,300 250,300" fill="white" opacity="0.2"/>
+  <polygon points="500,250 600,200 700,250 650,350 550,350" fill="white" opacity="0.3"/>
+  <polygon points="800,180 900,130 1000,180 950,280 850,280" fill="white" opacity="0.25"/>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">DevOps CI/CD</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" opacity="0.9">GitHub Actions & Vercel</text>
+  <rect x="500" y="380" width="200" height="4" rx="2" fill="white" opacity="0.7"/>
+</svg>

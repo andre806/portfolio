@@ -1,0 +1,21 @@
+{
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.customData": [
+        ".vscode/css_custom_data.json"
+    ],
+    "tailwindCSS.includeLanguages": {
+        "typescript": "typescript",
+        "typescriptreact": "typescriptreact"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "typescript.preferences.quoteStyle": "single",
+    "editor.formatOnSave": true
+}

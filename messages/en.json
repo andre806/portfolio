@@ -1,0 +1,462 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "blog": "Blog",
+        "playground": "Playground",
+        "jobs": "Jobs",
+        "contact": "Contact",
+        "dashboard": "Dashboard"
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "cancel": "Cancel",
+        "save": "Save",
+        "edit": "Edit",
+        "delete": "Delete",
+        "confirm": "Confirm",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "search": "Search",
+        "filter": "Filter",
+        "sort": "Sort",
+        "clear": "Clear",
+        "apply": "Apply",
+        "submit": "Submit",
+        "close": "Close",
+        "open": "Open",
+        "view": "View",
+        "download": "Download",
+        "share": "Share",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "readMore": "Read more",
+        "showLess": "Show less",
+        "showMore": "Show more",
+        "noResults": "No results found",
+        "tryAgain": "Try again"
+    },
+    "theme": {
+        "light": "Light theme",
+        "dark": "Dark theme",
+        "toggle": "Toggle theme"
+    },
+    "language": {
+        "portuguese": "Português",
+        "english": "English",
+        "toggle": "Change language"
+    },
+    "home": {
+        "title": "Full Stack Developer",
+        "subtitle": "Creating amazing digital experiences with modern technologies",
+        "description": "I'm a technology-passionate developer, specialized in React, Node.js and TypeScript. I love turning ideas into innovative digital solutions.",
+        "hero": {
+            "greeting": "Hello, I'm",
+            "title": "Full Stack Developer & Digital Experience Creator",
+            "description": "Specialized in React, Next.js, TypeScript and Node.js. I transform ideas into innovative digital solutions, creating modern and performant web applications that make a difference.",
+            "viewProjects": "View Projects",
+            "getInTouch": "Get in Touch",
+            "profileAlt": "André's profile photo"
+        },
+        "stats": {
+            "projectsCompleted": "Projects Completed",
+            "yearsExperience": "Years of Experience",
+            "technologies": "Technologies",
+            "clientSatisfaction": "Client Satisfaction"
+        },
+        "technologies": {
+            "title": "Technologies I Master",
+            "description": "Always learning and evolving with the best tools in the market to create modern and efficient solutions."
+        },
+        "services": {
+            "title": "Services I Offer",
+            "description": "Complete development solutions to meet your digital needs.",
+            "frontend": {
+                "title": "Frontend Development",
+                "description": "Creating modern, responsive and interactive interfaces using current best practices and technologies."
+            },
+            "backend": {
+                "title": "Backend Development",
+                "description": "Robust, secure and scalable APIs to bring your applications to life and ensure performance."
+            },
+            "database": {
+                "title": "Database",
+                "description": "Database modeling and optimization to ensure efficiency and data integrity."
+            },
+            "mobile": {
+                "title": "Mobile Development",
+                "description": "Native and hybrid mobile apps for iOS and Android with native experience."
+            }
+        },
+        "cta": {
+            "title": "Ready to Transform Your Idea into Reality?",
+            "description": "Let's work together to create something amazing. Get in touch and let's talk about your project.",
+            "viewProjects": "View My Projects",
+            "downloadCV": "Download CV"
+        }
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "Get to know my journey and experiences",
+        "description": "Full stack developer with a passion for creating innovative solutions and exceptional digital experiences.",
+        "hero": {
+            "title": "Hello, I'm André!",
+            "description": "Full stack developer passionate about technology and innovation. Specialized in React, Node.js and TypeScript, always seeking new challenges and growth opportunities."
+        },
+        "stats": {
+            "projectsCompleted": "Projects Completed",
+            "yearsExperience": "Years of Experience",
+            "technologiesMastered": "Technologies Mastered",
+            "clientsSatisfied": "Satisfied Clients"
+        },
+        "skills": {
+            "title": "Technical Skills",
+            "description": "Technologies and tools I use on a daily basis"
+        },
+        "achievements": {
+            "title": "Achievements",
+            "description": "Some important milestones in my career"
+        },
+        "qrCode": {
+            "title": "Connect with Me",
+            "description": "Scan the QR Code to access my professional profiles",
+            "scanToConnect": "Scan to connect"
+        },
+        "cta": {
+            "title": "Let's work together?",
+            "description": "I'm always open to new projects and opportunities.",
+            "contact": "Get in Touch"
+        }
+    },
+    "projects": {
+        "title": "My Projects",
+        "subtitle": "Portfolio of works and experiences",
+        "description": "A collection of my best projects, showcasing my skills and passion for development.",
+        "filters": {
+            "all": "All",
+            "featured": "Featured",
+            "recent": "Recent"
+        },
+        "categories": {
+            "web": "Web",
+            "mobile": "Mobile",
+            "api": "API",
+            "desktop": "Desktop",
+            "other": "Others"
+        },
+        "status": {
+            "completed": "Completed",
+            "inProgress": "In Progress",
+            "planned": "Planned"
+        },
+        "searchPlaceholder": "Search projects...",
+        "noProjectsFound": "No projects found",
+        "tryDifferentFilter": "Try using different filters or clear the search",
+        "viewDetails": "View Details",
+        "viewLive": "View Live",
+        "viewCode": "View Code",
+        "technologies": "Technologies",
+        "features": "Features",
+        "challenges": "Challenges",
+        "results": "Results",
+        "mostUsedTech": {
+            "title": "Most Used Technologies",
+            "description": "Based on developed projects"
+        }
+    },
+    "blog": {
+        "title": "Technical Blog",
+        "subtitle": "Articles about development and technology",
+        "description": "I share knowledge, experiences and insights about the programming world.",
+        "searchPlaceholder": "Search articles...",
+        "categories": {
+            "all": "All",
+            "tutorial": "Tutorial",
+            "review": "Review",
+            "tips": "Tips",
+            "news": "News",
+            "opinion": "Opinion"
+        },
+        "filters": {
+            "recent": "Most recent",
+            "popular": "Most popular",
+            "featured": "Featured"
+        },
+        "readTime": "min read",
+        "readMore": "Read full article",
+        "publishedOn": "Published on",
+        "lastUpdated": "Last updated",
+        "author": "Author",
+        "tags": "Tags",
+        "relatedPosts": "Related articles",
+        "shareArticle": "Share article",
+        "backToBlog": "← Back to blog",
+        "noArticlesFound": "No articles found",
+        "tryDifferentSearch": "Try a different search or explore the categories",
+        "featuredPosts": "Featured articles",
+        "recentPosts": "Recent articles",
+        "popularTags": "Popular tags"
+    },
+    "playground": {
+        "title": "Code Playground",
+        "subtitle": "Experiment and test code in real time",
+        "description": "An interactive environment to test code snippets, experiment with different technologies and learn.",
+        "examples": {
+            "title": "Examples",
+            "basic": "Basic",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced"
+        },
+        "editor": {
+            "run": "Run",
+            "clear": "Clear",
+            "format": "Format",
+            "copy": "Copy",
+            "download": "Download",
+            "share": "Share"
+        },
+        "console": {
+            "title": "Console",
+            "clear": "Clear console",
+            "noOutput": "No console output"
+        },
+        "preview": {
+            "title": "Preview",
+            "refresh": "Refresh",
+            "openInTab": "Open in new tab"
+        },
+        "templates": {
+            "title": "Templates",
+            "description": "Start with a ready template"
+        },
+        "languages": {
+            "javascript": "JavaScript",
+            "html": "HTML",
+            "css": "CSS",
+            "react": "React",
+            "vue": "Vue",
+            "angular": "Angular"
+        }
+    },
+    "jobs": {
+        "title": "Job Opportunities",
+        "subtitle": "Amazing opportunities in the technology field",
+        "description": "Find the best development and technology job openings",
+        "stats": {
+            "totalJobs": "Total jobs",
+            "remoteJobs": "Remote work",
+            "featuredJobs": "Featured jobs",
+            "averageSalary": "Average salary (Mid-level)"
+        },
+        "filters": {
+            "title": "Filters",
+            "clear": "Clear filters",
+            "search": "Search",
+            "searchPlaceholder": "Title, company, technology...",
+            "location": "Location",
+            "allLocations": "All locations",
+            "jobType": "Job type",
+            "level": "Level",
+            "category": "Category",
+            "remote": "Remote work",
+            "remoteOnly": "Remote only",
+            "onSiteHybrid": "On-site/Hybrid",
+            "salaryRange": "Salary range (BRL/month)",
+            "technologies": "Technologies",
+            "showMoreTech": "Show more technologies",
+            "showLessTech": "Show less",
+            "featuredOnly": "Featured only",
+            "urgentOnly": "Urgent only"
+        },
+        "jobTypes": {
+            "fullTime": "Full-time",
+            "partTime": "Part-time",
+            "contract": "Contract",
+            "freelance": "Freelance",
+            "internship": "Internship"
+        },
+        "levels": {
+            "junior": "Junior",
+            "mid": "Mid-level",
+            "senior": "Senior",
+            "lead": "Lead",
+            "principal": "Principal"
+        },
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "fullstack": "Full Stack",
+            "mobile": "Mobile",
+            "devops": "DevOps",
+            "data": "Data Science",
+            "design": "Design",
+            "product": "Product"
+        },
+        "badges": {
+            "featured": "Featured",
+            "urgent": "Urgent",
+            "remote": "Remote"
+        },
+        "card": {
+            "viewDetails": "View details →",
+            "salaryTbd": "Salary to be discussed",
+            "postedAgo": "{days} {days, plural, =1 {day} other {days}} ago",
+            "weeksAgo": "{weeks} {weeks, plural, =1 {week} other {weeks}} ago",
+            "monthsAgo": "{months} {months, plural, =1 {month} other {months}} ago"
+        },
+        "details": {
+            "description": "Job description",
+            "responsibilities": "Responsibilities",
+            "requirements": "Requirements",
+            "benefits": "Benefits",
+            "technologies": "Technologies",
+            "applicationDeadline": "Application deadline: {date}",
+            "similarJobs": "Similar jobs",
+            "apply": "Apply",
+            "viewOriginal": "View on original site",
+            "favorite": "Add to favorites",
+            "unfavorite": "Remove from favorites"
+        },
+        "application": {
+            "title": "Apply for {jobTitle}",
+            "fullName": "Full name",
+            "email": "Email",
+            "linkedin": "LinkedIn",
+            "portfolio": "Portfolio",
+            "coverLetter": "Cover letter",
+            "coverLetterPlaceholder": "Tell us why you're the ideal candidate for this position...",
+            "submit": "Submit application",
+            "submitting": "Submitting...",
+            "success": "Application submitted successfully!",
+            "error": "Error submitting application",
+            "required": "Required field"
+        },
+        "sorting": {
+            "newest": "Most recent",
+            "oldest": "Oldest",
+            "salaryHigh": "Highest salary",
+            "salaryLow": "Lowest salary",
+            "featured": "Featured first"
+        },
+        "results": {
+            "found": "{count} {count, plural, =1 {job found} other {jobs found}}",
+            "filtered": "(filtered)",
+            "noResults": "No jobs found",
+            "noResultsDesc": "Try adjusting the filters or clearing the search",
+            "viewAll": "View all jobs"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Let's talk about your next project",
+        "description": "I'm always open to new opportunities and interesting projects. Get in touch!",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "send": "Send Message",
+            "sending": "Sending...",
+            "success": "Message sent successfully!",
+            "error": "Error sending message. Please try again.",
+            "required": "Required field",
+            "invalidEmail": "Invalid email"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Phone",
+            "location": "Location",
+            "availability": "Availability"
+        },
+        "social": {
+            "title": "Social Media",
+            "description": "Connect with me on social media"
+        },
+        "feedback": {
+            "title": "Feedback",
+            "description": "Your opinion is important to me",
+            "rating": "Rating",
+            "comment": "Comment",
+            "submit": "Submit Feedback",
+            "thanks": "Thank you for your feedback!"
+        }
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Portfolio metrics and analytics",
+        "description": "Track statistics, performance and insights about the portfolio",
+        "tabs": {
+            "overview": "Overview",
+            "analytics": "Analytics",
+            "projects": "Projects",
+            "blog": "Blog",
+            "contact": "Contacts"
+        },
+        "metrics": {
+            "visitors": "Visitors",
+            "pageViews": "Page Views",
+            "bounceRate": "Bounce Rate",
+            "avgSessionDuration": "Avg Session Duration",
+            "totalProjects": "Total Projects",
+            "activeProjects": "Active Projects",
+            "completedProjects": "Completed Projects",
+            "totalPosts": "Total Posts",
+            "publishedPosts": "Published Posts",
+            "draftPosts": "Draft Posts",
+            "totalMessages": "Total Messages",
+            "unreadMessages": "Unread",
+            "repliedMessages": "Replied"
+        },
+        "charts": {
+            "visitorsOverTime": "Visitors Over Time",
+            "topPages": "Top Pages",
+            "deviceTypes": "Device Types",
+            "trafficSources": "Traffic Sources",
+            "projectsByCategory": "Projects by Category",
+            "techUsage": "Technology Usage",
+            "blogPerformance": "Blog Performance",
+            "contactTrends": "Contact Trends"
+        },
+        "export": {
+            "pdf": "Export PDF",
+            "csv": "Export CSV",
+            "json": "Export JSON"
+        },
+        "refresh": "Refresh data",
+        "lastUpdated": "Last updated: {time}"
+    },
+    "footer": {
+        "description": "Full stack developer passionate about creating amazing digital experiences.",
+        "quickLinks": "Quick Links",
+        "social": "Social Media",
+        "contact": "Contact",
+        "newsletter": {
+            "title": "Newsletter",
+            "description": "Get updates about new projects and articles",
+            "placeholder": "Your email",
+            "subscribe": "Subscribe",
+            "success": "Successfully subscribed!",
+            "error": "Error subscribing"
+        },
+        "copyright": "© {year} André. All rights reserved.",
+        "madeWith": "Made with ❤️ using Next.js and TailwindCSS"
+    },
+    "errors": {
+        "pageNotFound": "Page not found",
+        "somethingWentWrong": "Something went wrong",
+        "tryAgain": "Try again",
+        "goHome": "Go home",
+        "networkError": "Network error",
+        "serverError": "Server error",
+        "validationError": "Validation error"
+    },
+    "meta": {
+        "defaultTitle": "André - Full Stack Developer",
+        "defaultDescription": "Professional portfolio of André, full stack developer specialized in React, Node.js and TypeScript. Creating amazing digital experiences.",
+        "keywords": "developer, full stack, react, nodejs, typescript, portfolio, web development"
+    }
+}

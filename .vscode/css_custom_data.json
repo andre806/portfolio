@@ -1,0 +1,45 @@
+{
+    "version": 1.1,
+    "atDirectives": [
+        {
+            "name": "@tailwind",
+            "description": "Injects Tailwind's base, components, or utilities styles into your CSS.",
+            "references": [
+                {
+                    "name": "Tailwind CSS Documentation",
+                    "url": "https://tailwindcss.com/docs/functions-and-directives#tailwind"
+                }
+            ]
+        },
+        {
+            "name": "@apply",
+            "description": "Apply existing utility classes inline to your custom CSS.",
+            "references": [
+                {
+                    "name": "Tailwind CSS Documentation",
+                    "url": "https://tailwindcss.com/docs/functions-and-directives#apply"
+                }
+            ]
+        },
+        {
+            "name": "@layer",
+            "description": "Add custom styles to a specific layer in Tailwind.",
+            "references": [
+                {
+                    "name": "Tailwind CSS Documentation",
+                    "url": "https://tailwindcss.com/docs/functions-and-directives#layer"
+                }
+            ]
+        },
+        {
+            "name": "@screen",
+            "description": "Create media queries that reference your breakpoints by name.",
+            "references": [
+                {
+                    "name": "Tailwind CSS Documentation",
+                    "url": "https://tailwindcss.com/docs/functions-and-directives#screen"
+                }
+            ]
+        }
+    ]
+}

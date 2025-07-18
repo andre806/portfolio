@@ -1,0 +1,14 @@
+<!-- Placeholder SVG para Task App -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#3b82f6"/>
+  <rect x="50" y="40" width="300" height="220" fill="#60a5fa" rx="8"/>
+  <rect x="70" y="60" width="260" height="30" fill="#93c5fd" rx="4"/>
+  <rect x="80" y="110" width="240" height="15" fill="#bfdbfe"/>
+  <rect x="80" y="135" width="180" height="15" fill="#dbeafe"/>
+  <rect x="80" y="160" width="200" height="15" fill="#eff6ff"/>
+  <circle cx="90" cy="110" r="4" fill="#1e40af"/>
+  <circle cx="90" cy="135" r="4" fill="#2563eb"/>
+  <circle cx="90" cy="160" r="4" fill="#3b82f6"/>
+  <text x="200" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">📱 Task Management</text>
+  <text x="200" y="230" text-anchor="middle" fill="#dbeafe" font-family="Arial, sans-serif" font-size="10">Mobile productivity app</text>
+</svg>
