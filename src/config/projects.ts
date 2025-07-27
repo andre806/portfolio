@@ -38,7 +38,26 @@ export const projects: Project[] = [
         tags: ['nextjs', 'MUI'],
         priority: 2,
         isPublic: true
-    }
+    },
+    {
+    id: 'open-library',
+    title: 'Open-Library',
+    shortDescription: 'Open Library is a modern, responsive digital library web app built with Next.js, React, TypeScript, and Material UI. Users can search, preview, and download PDF books, register/login, upload new books, and explore content by tags—all with a clean, mobile-friendly interface.',
+    description: 'Open Library is a full-featured digital library platform designed for easy access to PDF books. Built with Next.js (App Router), React, TypeScript, and Material UI, it offers a visually appealing and highly responsive user experience on both desktop and mobile devices. Users can register, log in, upload new books (with direct storage integration for large files), and browse or search the collection using advanced filters and tags. The app features PDF preview (with page count), download functionality, and a feedback system. All pages are styled with a custom blue palette and modern UI patterns, including a navigation bar, hero section, statistics, and AdSense integration. The project is optimized for performance, accessibility, and scalability, making it suitable for public or private digital libraries.',
+    image: '/public/open.PNG',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Nextjs', 'typescript'],
+    category: 'web',
+    status: 'completed',
+    featured: false,
+    githubUrl: 'https://github.com/andre806/Open-Library',
+    demoUrl: 'https://open-library-olive.vercel.app/',
+    startDate: '',
+    endDate: '',
+    features: [],
+    tags: ['React', 'Node.js', 'MongoDB', 'Nextjs', 'typescript'],
+    priority: 3,
+    isPublic: true
+},
 ];
 
 // Função para filtrar projetos
