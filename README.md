@@ -1,7 +1,7 @@
 # Portfolio - andre806
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7btNRR8v2tY9tw2w/giphy.gif" width="320" alt="Banner animado do portfólio"/>
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/hello.gif" width="320" alt="Banner animado do portfólio"/>
 </p>
 
 Este projeto é um portfólio moderno e interativo, desenvolvido para apresentar meus principais trabalhos, habilidades, exemplos de código, artigos e sistemas criados, com foco em usabilidade, performance e experiência visual.
@@ -11,9 +11,9 @@ Este projeto é um portfólio moderno e interativo, desenvolvido para apresentar
 ## 🔥 Tecnologias Utilizadas
 
 <div align="center">
-  <img src="https://media.giphy.com/media/hp3dmE4HhVbQbK5WZy/giphy.gif" height="40" alt="Next.js" />
-  <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" height="40" alt="React" />
-  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3m6G/giphy.gif" height="40" alt="TypeScript" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/programming.gif" height="40" alt="Next.js" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/coffee.gif" height="40" alt="React" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/code.gif" height="40" alt="TypeScript" />
   <img src="https://mui.com/static/logo.png" height="40" alt="MUI" />
   <img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.6ea76b31.svg" height="40" alt="TailwindCSS" />
 </div>
@@ -38,7 +38,7 @@ Este projeto é um portfólio moderno e interativo, desenvolvido para apresentar
 ## ✨ Principais Funcionalidades
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif" width="400" alt="Funcionalidades animadas"/>
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/features.gif" width="400" alt="Funcionalidades animadas"/>
 </p>
 
 - **Catálogo de Projetos**: Explore projetos com filtros inteligentes e visualização detalhada.
@@ -55,7 +55,7 @@ Este projeto é um portfólio moderno e interativo, desenvolvido para apresentar
 ## 🎯 Projetos em Destaque
 
 <p align="center">
-  <img src="https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif" width="180" alt="Projetos destaque"/>
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/projects.gif" width="180" alt="Projetos destaque"/>
 </p>
 
 - **Crypto Market:**  
@@ -75,7 +75,7 @@ Este projeto é um portfólio moderno e interativo, desenvolvido para apresentar
 ## 🚀 Como Rodar Localmente
 
 <p align="center">
-  <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" height="140" alt="Rodando localmente"/>
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/deploy.gif" height="140" alt="Rodando localmente"/>
 </p>
 
 1. **Clone o repositório**
@@ -152,7 +152,7 @@ Este projeto está sob a licença MIT.
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="120" alt="Logo animada"/>
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/bye.gif" width="120" alt="Logo animada"/>
 </p>
 
 **Desenvolvido por [André806](https://github.com/andre806)** 🚀
