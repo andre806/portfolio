@@ -6,6 +6,7 @@ import { Project } from '../../models/Project';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Box, Paper, Typography, Chip, Stack, Button, Avatar, IconButton, Dialog, DialogContent } from '@mui/material';
+import { MediaDisplay } from '../common/MediaDisplay';
 
 interface ProjectDetailsProps {
     project: Project | null;
@@ -57,13 +58,15 @@ export const ProjectDetails: React.FC<ProjectDetailsProps> = ({
             <DialogContent sx={{ p: 0 }}>
                 <Paper elevation={24} sx={{ maxWidth: 900, width: '100%', borderRadius: 4, overflow: 'hidden', maxHeight: '95vh', display: 'flex', flexDirection: 'column', position: 'relative', m: 'auto' }}>
                     {/* Header image and overlay */}
-                    <Box sx={{ position: 'relative', height: { xs: 220, sm: 320 }, width: '100%' }}>
-                        <Image
+                    <Box sx={{ position: 'relative', height: { xs: 220, sm: 320 }, width: '100%', overflow: 'hidden', borderTopLeftRadius: 2, borderTopRightRadius: 2 }}>
+                        <MediaDisplay
                             src={project.image}
                             alt={project.title}
-                            fill
-                            style={{ objectFit: 'cover', borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
-                            sizes="(max-width: 768px) 100vw, 896px"
+                            className="w-full h-full object-cover"
+                            autoPlay={true}
+                            loop={true}
+                            muted={true}
+                            controls={false}
                         />
                         <Box sx={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.7) 60%, transparent 100%)' }} />
                         <IconButton onClick={onClose} sx={{ position: 'absolute', top: 16, right: 16, bgcolor: 'rgba(255,255,255,0.7)', '&:hover': { bgcolor: 'white' }, zIndex: 2 }} aria-label="Close">

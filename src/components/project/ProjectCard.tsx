@@ -4,6 +4,7 @@ import React from 'react';
 import { Project } from '../../models/Project';
 import { Card, CardContent, CardMedia, Typography, Chip, Stack, Button, Box } from '@mui/material';
 import type { ChipProps } from '@mui/material';
+import { MediaDisplay } from '../common/MediaDisplay';
 
 interface ProjectCardProps {
     project: Project;
@@ -37,12 +38,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     if (viewMode === 'list') {
         return (
             <Card sx={{ display: 'flex', mb: 2, borderRadius: 3, boxShadow: 3, cursor: 'pointer', overflow: 'hidden' }} onClick={handleCardClick}>
-                <CardMedia
-                    component="img"
-                    image={project.image}
-                    alt={project.title}
-                    sx={{ width: 180, height: 180, objectFit: 'cover' }}
-                />
+                <Box sx={{ width: 180, height: 180, overflow: 'hidden', flexShrink: 0 }}>
+                    <MediaDisplay
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                        autoPlay={true}
+                        loop={true}
+                        muted={true}
+                        controls={false}
+                    />
+                </Box>
                 <CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                     <Box>
                         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={1}>
@@ -104,12 +110,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 
     return (
         <Card sx={{ borderRadius: 3, boxShadow: 3, mb: 2, cursor: 'pointer', overflow: 'hidden' }} onClick={handleCardClick}>
-            <CardMedia
-                component="img"
-                image={project.image}
-                alt={project.title}
-                sx={{ height: 200, objectFit: 'cover' }}
-            />
+            <Box sx={{ height: 200, overflow: 'hidden' }}>
+                <MediaDisplay
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                    autoPlay={true}
+                    loop={true}
+                    muted={true}
+                    controls={false}
+                />
+            </Box>
             <CardContent>
                 <Stack direction="row" alignItems="center" justifyContent="space-between" mb={1}>
                     <Typography variant="h6" fontWeight={700}>{project.title}</Typography>

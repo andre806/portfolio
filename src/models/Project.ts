@@ -4,6 +4,7 @@ export interface Project {
     description: string;
     shortDescription: string;
     image: string;
+    mediaType?: 'image' | 'video'; // Tipo de mídia (detectado automaticamente se não especificado)
     technologies: string[];
     category: 'web' | 'mobile' | 'desktop' | 'api' | 'ai' | 'other';
     status: 'completed' | 'in-progress' | 'planned';
