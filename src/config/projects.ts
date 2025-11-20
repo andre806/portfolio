@@ -84,7 +84,7 @@ export const projects: Project[] = [
     description: 'CupidoApp é um aplicativo de relacionamentos criado para pessoas que valorizam conexões verdadeiras e desejam encontrar pessoas realmente compatíveis. Ao contrário de outros aplicativos de encontros onde a primeira impressão depende de fotos, no CupidoApp o destaque é para o perfil, personalidade, valores e interesses dos usuários, promovendo encontros baseados no que realmente importa.',
     image: '/comercial do app.mp4',
     technologies: ['React', 'Node.js', 'MongoDB', 'Nextjs', 'typescript','java', 'springboot','AWS S3','SOLID','arquitetura modular','padrão restful','websocket'],
-    category: 'web',
+    category: 'mobile',
     status: 'completed',
     featured: false,
     githubUrl: 'https://github.com/andre806/CupidoApp',
