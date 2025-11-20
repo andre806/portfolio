@@ -38,6 +38,11 @@ export const MediaDisplay: React.FC<MediaDisplayProps> = ({
                 loop={loop}
                 muted={muted}
                 playsInline
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover'
+                }}
             >
                 Seu navegador não suporta a reprodução de vídeos.
             </video>
@@ -50,6 +55,11 @@ export const MediaDisplay: React.FC<MediaDisplayProps> = ({
             alt={alt}
             className={className}
             loading={loading}
+            style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover'
+            }}
         />
     );
 };

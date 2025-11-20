@@ -62,7 +62,6 @@ export const ProjectDetails: React.FC<ProjectDetailsProps> = ({
                         <MediaDisplay
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-full object-cover"
                             autoPlay={true}
                             loop={true}
                             muted={true}

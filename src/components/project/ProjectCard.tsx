@@ -42,7 +42,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                     <MediaDisplay
                         src={project.image}
                         alt={project.title}
-                        className="w-full h-full object-cover"
                         autoPlay={true}
                         loop={true}
                         muted={true}
@@ -114,7 +113,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                 <MediaDisplay
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
                     autoPlay={true}
                     loop={true}
                     muted={true}
