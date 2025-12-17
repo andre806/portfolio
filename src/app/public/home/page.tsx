@@ -47,7 +47,7 @@ const socialLinks = [
         icon: <InstagramIcon fontSize="medium" />, url: "https://www.instagram.com/andre_code1/", label: "Instagram",
     },
     {
-        icon: <TikTokIcon fontSize="medium" />, url: "https://www.tiktok.com/@andre_code", label: "TikTok",
+        icon: <TikTokIcon fontSize="medium" />, url: "https://www.tiktok.com/@andre_code, label: "TikTok",
     },
 ];
 
