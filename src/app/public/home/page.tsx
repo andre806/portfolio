@@ -35,7 +35,7 @@ const socialLinks = [
         icon: <GitHubIcon fontSize="medium" />, url: "https://github.com/andre806", label: "GitHub",
     },
     {
-        icon: <LinkedInIcon fontSize="medium" />, url: "https://www.linkedin.com/in/andr%C3%A9-code-9b7646373/", label: "LinkedIn",
+        icon: <LinkedInIcon fontSize="medium" />, url: "https://www.linkedin.com/in/andr%C3%A9-paulo/", label: "LinkedIn",
     },
     {
         icon: <TwitterIcon fontSize="medium" />, url: "https://x.com/AndreCode71566", label: "Twitter",
@@ -47,7 +47,7 @@ const socialLinks = [
         icon: <InstagramIcon fontSize="medium" />, url: "https://www.instagram.com/andre_code1/", label: "Instagram",
     },
     {
-        icon: <TikTokIcon fontSize="medium" />, url: "https://www.tiktok.com/@andre_code0", label: "TikTok",
+        icon: <TikTokIcon fontSize="medium" />, url: "https://www.tiktok.com/@andre_code", label: "TikTok",
     },
 ];
 
