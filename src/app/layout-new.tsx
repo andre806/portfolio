@@ -4,10 +4,10 @@ import { redirect } from 'next/navigation'
 // Layout principal que redireciona para o locale padrão
 export const metadata: Metadata = {
     title: {
-        default: 'Luisa - Full Stack Developer',
-        template: '%s | Luisa - Full Stack Developer'
+        default: 'André - Desenvolvedor Full Stack',
+        template: '%s | André - Desenvolvedor Full Stack'
     },
-    description: "Luisa's professional portfolio, Full Stack Developer specialized in React, Next.js, TypeScript, and Node.js.",
+    description: 'Portfólio profissional de André, desenvolvedor Full Stack especializado em React, Next.js, TypeScript e Node.js.',
 }
 
 export default function RootLayout() {

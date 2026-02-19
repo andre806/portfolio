@@ -14,36 +14,36 @@ const inter = Inter({
     variable: '--font-inter'
 })
 
-// Site metadata (English, Luisa)
+// Metadados do site
 export const metadata: Metadata = {
     title: {
-        default: 'Luisa - Full Stack Developer',
-        template: '%s | Luisa - Full Stack Developer'
+        default: 'André - Desenvolvedor Full Stack',
+        template: '%s | André - Desenvolvedor Full Stack'
     },
-    description: "Luisa's professional portfolio, Full Stack Developer specialized in React, Next.js, TypeScript, and Node.js.",
-    keywords: ['developer', 'full stack', 'react', 'nextjs', 'typescript', 'portfolio', 'luisa'],
-    authors: [{ name: 'Luisa' }],
-    creator: 'Luisa',
+    description: 'Portfólio profissional de André, desenvolvedor Full Stack especializado em React, Next.js, TypeScript e Node.js.',
+    keywords: ['desenvolvedor', 'full stack', 'react', 'nextjs', 'typescript', 'portfolio', 'andré'],
+    authors: [{ name: 'André' }],
+    creator: 'André',
     openGraph: {
         type: 'website',
-        locale: 'en_US',
-        url: 'https://yourdomain.com',
-        title: 'Luisa - Full Stack Developer',
-        description: "Luisa's professional portfolio, Full Stack Developer",
-        siteName: 'Luisa Portfolio',
+        locale: 'pt_BR',
+        url: 'https://seudominio.com',
+        title: 'André - Desenvolvedor Full Stack',
+        description: 'Portfólio profissional de André, desenvolvedor Full Stack',
+        siteName: 'André Portfolio',
         images: [
             {
                 url: '/profile-photo.png',
                 width: 1200,
                 height: 630,
-                alt: 'Luisa - Full Stack Developer'
+                alt: 'André - Desenvolvedor Full Stack'
             }
         ]
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Luisa - Full Stack Developer',
-        description: "Luisa's professional portfolio, Full Stack Developer",
+        title: 'André - Desenvolvedor Full Stack',
+        description: 'Portfólio profissional de André, desenvolvedor Full Stack',
         images: ['/profile-photo.png']
     },
     robots: {
@@ -70,7 +70,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html
-            lang="en"
+            lang="pt-BR"
             className={`${inter.variable} antialiased`}
             suppressHydrationWarning
         >
@@ -95,7 +95,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         href="#main-content"
                         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-50 transition-all duration-200"
                     >
-                        Skip to main content
+                        Pular para o conteúdo principal
                     </a>
 
                     {/* Container principal com layout flexível */}
@@ -140,7 +140,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                         <div className="bg-white dark:bg-slate-800 rounded-lg p-6 shadow-xl">
                             <div className="flex items-center space-x-3">
                                 <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
-                                <span className="text-slate-700 dark:text-slate-300">Loading...</span>
+                                <span className="text-slate-700 dark:text-slate-300">Carregando...</span>
                             </div>
                         </div>
                     </div>

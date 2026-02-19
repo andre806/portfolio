@@ -1,11 +1,13 @@
 import { TimelineEvent, PersonalInfo, Skill, Achievement, Education, WorkExperience } from '../models/Timeline';
 
 export const personalInfo: PersonalInfo = {
-    name: 'Luisa',
+    name: 'André Paulo',
     title: 'Full Stack Developer & Software Engineer',
     bio: 'Passionate developer with over 5 years of experience creating innovative solutions. Specialized in React, Node.js, and modern architectures, always striving for technical excellence and positive impact through code.',
-    location: 'João Pessoa, Brazil',
+    location: 'Campina Grande, Brazil',
+    email: 'acode775@gmail.com',
     phone: '+55 (83) 991779519',
+    website: 'https://andre-portfolio.vercel.app',
     avatar: '/profile-avatar.png',
     coverImage: '/cover-photo.jpg',
     yearsOfExperience: 5,
