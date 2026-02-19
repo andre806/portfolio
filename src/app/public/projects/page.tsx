@@ -39,16 +39,16 @@ export default function ProjectsPage() {
 
 
     return (
-        <Box minHeight="100vh" sx={{ bgcolor: 'background.default' }}>
+        <Box minHeight="100vh" sx={{ background: 'linear-gradient(135deg, #000 0%, #6d28d9 100%)', color: '#fff' }}>
             {/* Hero Section */}
             <Box
                 sx={{
-                    background: 'linear-gradient(135deg, #7c3aed 0%, #2563eb 50%, #6366f1 100%)',
-                    color: 'common.white',
+                    background: 'linear-gradient(135deg, #6d28d9 0%, #000 100%)',
+                    color: '#fff',
                     py: { xs: 8, md: 12 },
                 }}
             >
-                <Container maxWidth="md">
+                <Container maxWidth="md" >
                     <Stack spacing={4} alignItems="center" textAlign="center">
                         <Typography variant="h2" fontWeight={700} sx={{ fontSize: { xs: 32, md: 48 } }}>
                             My Projects
@@ -82,7 +82,7 @@ export default function ProjectsPage() {
 
             {/* Featured Projects */}
             {featuredProjects.length > 0 && (
-                <Box sx={{ py: { xs: 8, md: 10 }, bgcolor: 'background.paper' }}>
+                <Box sx={{ py: { xs: 8, md: 10 }, bgcolor: 'rgba(109,40,217,0.15)' }}>
                     <Container>
                         <Typography variant="h4" fontWeight={700} textAlign="center" mb={4}>
                             ⭐ Featured Projects
@@ -103,7 +103,7 @@ export default function ProjectsPage() {
 
 
             {/* Filters and Search */}
-            <Box sx={{ py: 4, bgcolor: 'grey.100', borderY: 1, borderColor: 'divider' }}>
+            <Box sx={{ py: 4, bgcolor: 'rgba(0,0,0,0.7)', borderY: 1, borderColor: 'rgba(109,40,217,0.5)' }}>
                 <Container>
                     <Stack direction={{ xs: 'column', lg: 'row' }} spacing={3} alignItems="center" justifyContent="space-between">
                         {/* Search Bar */}
@@ -112,8 +112,12 @@ export default function ProjectsPage() {
                             placeholder="Search projects..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            InputProps={{ startAdornment: <Box component="span" sx={{ pr: 1 }}>🔍</Box> }}
-                            sx={{ flex: 1, maxWidth: 340, bgcolor: 'background.paper', borderRadius: 2 }}
+                            InputProps={{
+                                startAdornment: <Box component="span" sx={{ pr: 1 }}>🔍</Box>,
+                                style: { color: '#fff' },
+                            }}
+                            InputLabelProps={{ style: { color: '#fff' } }}
+                            sx={{ flex: 1, maxWidth: 340, bgcolor: 'rgba(109,40,217,0.15)', borderRadius: 2, color: '#fff', '::placeholder': { color: '#fff' } }}
                         />
 
                         {/* Category Filter */}
@@ -179,13 +183,13 @@ export default function ProjectsPage() {
 
 
             {/* Technology Stack Overview */}
-            <Box sx={{ py: { xs: 8, md: 10 }, bgcolor: 'background.paper' }}>
+            <Box sx={{ py: { xs: 8, md: 10 }, bgcolor: 'rgba(0,0,0,0.7)' }}>
                 <Container>
-                    <Paper elevation={3} sx={{ p: { xs: 3, md: 5 }, borderRadius: 4, maxWidth: 800, mx: 'auto', mb: 4, textAlign: 'center', boxShadow: 6 }}>
-                        <Typography variant="h4" fontWeight={700} mb={2} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
+                    <Paper elevation={3} sx={{ p: { xs: 3, md: 5 }, borderRadius: 4, maxWidth: 800, mx: 'auto', mb: 4, textAlign: 'center', boxShadow: 6, bgcolor: 'rgba(109,40,217,0.15)', color: '#fff' }}>
+                        <Typography variant="h4" fontWeight={700} mb={2} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, color: '#fff' }}>
                             <Box component="span" fontSize={32}>🛠️</Box> Most Used Technologies
                         </Typography>
-                        <Typography color="text.secondary" mb={3}>
+                        <Typography color="#e0e0e0" mb={3}>
                             The tools and languages I use most often to build high-quality projects.
                         </Typography>
                         <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 2 }}>
@@ -255,8 +259,8 @@ export default function ProjectsPage() {
             <Box
                 sx={{
                     py: { xs: 8, md: 10 },
-                    background: 'linear-gradient(90deg, #7c3aed 0%, #2563eb 100%)',
-                    color: 'common.white',
+                    background: 'linear-gradient(90deg, #000 0%, #6d28d9 100%)',
+                    color: '#fff',
                     textAlign: 'center',
                 }}
             >
@@ -269,16 +273,9 @@ export default function ProjectsPage() {
                     </Typography>
                     <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="center" alignItems="center">
                         <Button
-                            onClick={() => window.location.href = '/public/contact'}
-                            variant="contained"
-                            sx={{ bgcolor: 'common.white', color: 'secondary.main', fontWeight: 600, px: 4, py: 2, '&:hover': { bgcolor: 'grey.100' } }}
-                        >
-                            💬 Contact Me
-                        </Button>
-                        <Button
                             onClick={() => window.location.href = '/public/about'}
                             variant="outlined"
-                            sx={{ borderColor: 'common.white', color: 'common.white', fontWeight: 600, px: 4, py: 2, '&:hover': { bgcolor: 'common.white', color: 'secondary.main' } }}
+                            sx={{ borderColor: '#6d28d9', color: '#fff', fontWeight: 600, px: 4, py: 2, '&:hover': { bgcolor: '#6d28d9', color: '#fff' } }}
                         >
                             👨‍💻 About Me
                         </Button>

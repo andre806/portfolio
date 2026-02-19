@@ -11,10 +11,10 @@ import { QRCV } from '../../../components/about/QRCV';
 
 export default function AboutPage() {
     return (
-        <Box minHeight="100vh" sx={{ bgcolor: 'grey.50' }}>
+        <Box minHeight="100vh" sx={{ background: 'linear-gradient(135deg, #000 0%, #6d28d9 100%)' }}>
             {/* Hero Section */}
             <Box sx={{
-                background: 'linear-gradient(135deg, #7c3aed 0%, #2563eb 50%, #6366f1 100%)',
+                background: 'linear-gradient(135deg, #6d28d9 0%, #000 100%)',
                 color: 'common.white',
                 py: { xs: 8, md: 12 },
                 position: 'relative',
@@ -36,10 +36,6 @@ export default function AboutPage() {
                                 <Stack direction="row" spacing={1} alignItems="center">
                                     <span>📍</span>
                                     <Typography variant="body2">{personalInfo.location}</Typography>
-                                </Stack>
-                                <Stack direction="row" spacing={1} alignItems="center">
-                                    <span>✉️</span>
-                                    <Typography variant="body2">{personalInfo.email}</Typography>
                                 </Stack>
                             </Stack>
                         </Box>
@@ -70,7 +66,7 @@ export default function AboutPage() {
             </Box>
 
             {/* Quick Stats 
-            <Box sx={{ py: 8, bgcolor: 'background.paper', mt: -6, position: 'relative', zIndex: 2 }}>
+            <Box sx={{ py: 8, bgcolor: 'rgba(109,40,217,0.15)', mt: -6, position: 'relative', zIndex: 2 }}>
                 <Container maxWidth="md">
                     <Paper elevation={6} sx={{ borderRadius: 4, p: { xs: 3, md: 6 }, boxShadow: 6, border: '1px solid', borderColor: 'secondary.light', background: 'linear-gradient(90deg, #ede9fe 0%, #dbeafe 100%)' }}>
                         <Grid container spacing={4} justifyContent="center">
@@ -95,7 +91,7 @@ export default function AboutPage() {
             </Box>*/}
 
             {/* Skills 
-            <Box sx={{ py: 10, bgcolor: 'grey.50' }}>
+            <Box sx={{ py: 10, bgcolor: 'rgba(109,40,217,0.10)' }}>
                 <Container>
                     <Skills skills={skills} />
                 </Container>
@@ -103,14 +99,14 @@ export default function AboutPage() {
             */}
 
             {/* Timeline 
-            <Box sx={{ py: 10, bgcolor: 'background.paper' }}>
+            <Box sx={{ py: 10, bgcolor: 'rgba(0,0,0,0.7)' }}>
                 <Container>
                     <Timeline events={timelineEvents} />
                 </Container>
             </Box>*/}
 
             {/* Featured Achievements 
-            <Box sx={{ py: 10, bgcolor: 'grey.50' }}>
+            <Box sx={{ py: 10, bgcolor: 'rgba(109,40,217,0.10)' }}>
                 <Container maxWidth="md">
                     <Typography variant="h4" fontWeight={700} textAlign="center" mb={2}>
                         🏆 Main Achievements
@@ -138,14 +134,23 @@ export default function AboutPage() {
             </Box>*/}
 
             {/* QR Code Section */}
-            <Box sx={{ py: 10, bgcolor: 'background.paper' }}>
+            <Box sx={{ py: 10, bgcolor: 'rgba(0,0,0,0.7)' }}>
                 <Container>
-                    <QRCV />
+                    <Typography variant="h4" fontWeight={700} mb={3} textAlign="center" sx={{ color: '#fff' }}>
+                        Sobre minha comunicação
+                    </Typography>
+                    <Typography variant="body1" sx={{ maxWidth: 800, mx: 'auto', color: '#fff', fontSize: 18, lineHeight: 1.8 }}>
+                        Em 2022 sofri um traumatismo craniano que afetou a área motora da fala, mas não minha inteligência, memória ou raciocínio lógico. Continuo resolvendo problemas complexos, estruturando sistemas e aprendendo novas tecnologias normalmente.<br /><br />
+                        O dano foi neurológico, não psicológico. Minha mente organiza frases e ideias com clareza, mas o cérebro não consegue coordenar os músculos da fala. Os médicos classificaram como apraxia de fala adquirida com disartria leve.<br /><br />
+                        <b>Resumindo para o universo tech:</b> O "código da fala" está perfeito, mas o "compilador" que transforma isso em som não executa corretamente.<br /><br />
+                        Por isso, hoje uso comunicação escrita estruturada, ferramentas de texto em tempo real e documentação detalhada. Minha cognição, análise lógica e capacidade profissional seguem intactas.<br /><br />
+                        Só mudei a interface de comunicação. A lógica continua sólida por baixo.
+                    </Typography>
                 </Container>
             </Box>
 
             {/* Call to Action */}
-            <Box sx={{ py: 10, background: 'linear-gradient(90deg, #7c3aed 0%, #2563eb 100%)', color: 'white', textAlign: 'center' }}>
+            <Box sx={{ py: 10, background: 'linear-gradient(90deg, #000 0%, #6d28d9 100%)', color: 'white', textAlign: 'center' }}>
                 <Container maxWidth="md">
                     <Typography variant="h4" fontWeight={700} mb={2}>
                         Shall we work together? 🤝
@@ -154,14 +159,7 @@ export default function AboutPage() {
                         I&apos;m always looking for new challenges and interesting projects. Get in touch so we can talk about opportunities.
                     </Typography>
                     <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="center" alignItems="center">
-                        <Button
-                            component={Link}
-                            href="/public/contact"
-                            variant="contained"
-                            sx={{ bgcolor: 'common.white', color: 'secondary.main', fontWeight: 600, px: 4, py: 2, '&:hover': { bgcolor: 'grey.100' } }}
-                        >
-                            💬 Contact Me
-                        </Button>
+
                         <Button
                             component={Link}
                             href="/public/projects"
@@ -170,13 +168,7 @@ export default function AboutPage() {
                         >
                             🚀 View Projects
                         </Button>
-                        <Button
-                            onClick={() => window.open(`mailto:${personalInfo.email}`, '_blank')}
-                            variant="outlined"
-                            sx={{ borderColor: 'common.white', color: 'common.white', fontWeight: 600, px: 4, py: 2, '&:hover': { bgcolor: 'common.white', color: 'secondary.main' } }}
-                        >
-                            📧 Send Email
-                        </Button>
+
                     </Stack>
                 </Container>
             </Box>

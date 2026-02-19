@@ -3,10 +3,10 @@ import type { Metadata, Viewport } from 'next'
 // Layout principal - redirecionamento agora é feito pelo middleware
 export const metadata: Metadata = {
     title: {
-        default: 'André - Desenvolvedor Full Stack',
-        template: '%s | André - Desenvolvedor Full Stack'
+        default: 'Luisa -  Full Stack Developer',
+        template: '%s | Luisa -  Full Stack Developer'
     },
-    description: 'Portfólio profissional de André, desenvolvedor Full Stack especializado em React, Next.js, TypeScript e Node.js.',
+    description: "Luisa's professional portfolio, Full Stack Developer specialized in React, Next.js, TypeScript, and Node.js.",
     icons: {
         icon: [
             { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
